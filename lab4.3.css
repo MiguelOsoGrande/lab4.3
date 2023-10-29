@@ -1,0 +1,125 @@
+{
+    --main-background-color: white;
+}
+
+body {
+    font-family: "Courier New", monospace;
+    background-color: var(--main-background-color);
+    text-align: center;
+}
+
+#custom-header,
+#custom-navigation,
+#custom-main-content,
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--main-background-color);
+}
+
+.custom-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--main-background-color);
+}
+
+.custom-web-name {
+    margin: 10px 0 0 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -5.5px;
+    color: #333333;
+}
+
+#custom-tagline {
+    margin: -8px 0 10px 2px;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+#custom-navigation {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--main-background-color);
+}
+
+ul#custom-navigation-list {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#custom-navigation-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#custom-navigation-list li:last-child {
+    margin-right: 0;
+}
+
+#custom-navigation-list li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.picture-placeholder {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#custom-main-content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: var(--main-background-color);
+}
+
+.maincontent {
+    flex: 1;
+}
+
+.maincontent img {
+    width: 100%;
+    height: auto;
+}
+
+.present,
+.past {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+
+.present li,
+.past li {
+    display: block;
+}
+
+.custom-main-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: var(--main-background-color);
+}
